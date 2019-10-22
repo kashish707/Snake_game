@@ -14,12 +14,12 @@ void setup()
 	y=height/2;
 	
 	label1:
-		fruitx=rand()%20;
+		fruitx=rand()%40;
 		if(fruitx==0)
 		goto label1;
 		
 	label2:
-		fruitx=y=rand()%20;
+		fruitx=y=rand()%40;
 		if(fruity==0)
 		goto label2;
 	
@@ -125,11 +125,11 @@ void makelogic()
 	if(x==fruitx&&y==fruity)
 	{
 		label3:
-			fruitx=rand()%20;
+			fruitx=rand()%40;
 			if(fruitx==0)
 		 	 goto label3;
 		label4:
-			fruity=rand()%20;
+			fruity=rand()%40;
 			if(fruity==0)
 			 goto label4;
 	 	 score+=10;
