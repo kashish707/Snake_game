@@ -3,7 +3,7 @@
 #include<stdlib.h>
 #include<windows.h>
 #include<chanhead.h>
-int width=20,height=20,gameover;
+int width=40,height=40,gameover;
 int x,y,fruitx,fruity,score,flag;
 int tailx[100],taily[100];
 int counttail=0;
